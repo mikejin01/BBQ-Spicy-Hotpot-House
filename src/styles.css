@@ -1358,6 +1358,45 @@ img {
 }
 
 @media (max-width: 540px) {
+  /* scale the hero copy down so it reads well on a phone */
+  .hero__cn {
+    font-size: 1.55rem;
+    margin-bottom: 0.7rem;
+  }
+  .hero .eyebrow {
+    font-size: 0.6rem;
+    letter-spacing: 0.14em;
+    gap: 0.6rem;
+    margin-bottom: 0.9rem;
+  }
+  .hero .eyebrow::before,
+  .hero .eyebrow--center::after {
+    width: 24px;
+  }
+  .hero__title {
+    font-size: 1.7rem;
+    line-height: 1.12;
+  }
+  .hero__sub {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-top: 0.9rem;
+  }
+  .hero__actions {
+    gap: 0.6rem;
+    margin-top: 1.3rem;
+  }
+  .hero__actions .btn {
+    padding: 0.7rem 1rem;
+    font-size: 0.63rem;
+    letter-spacing: 0.13em;
+  }
+  .hero__meta {
+    font-size: 0.74rem;
+    margin-top: 1.3rem;
+    gap: 0.4rem 1rem;
+  }
+
   .menu__grid {
     grid-template-columns: 1fr;
   }
