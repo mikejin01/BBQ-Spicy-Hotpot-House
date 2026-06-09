@@ -24,8 +24,11 @@ export default function Nav() {
     <header className={`nav ${scrolled ? 'nav--solid' : ''}`}>
       <div className="nav__inner">
         <a className="brand" href="#top" aria-label={`${brand.name} home`}>
-          <span className="brand__mark">{brand.mark}</span>
-          <span className="brand__name">{brand.name}</span>
+          <img className="brand__logo" src={brand.logo} alt="" width="48" height="48" />
+          <span className="brand__text">
+            <span className="brand__mark">{brand.mark}</span>
+            <span className="brand__name">{brand.name}</span>
+          </span>
         </a>
 
         <nav className="nav__links" aria-label="Primary">

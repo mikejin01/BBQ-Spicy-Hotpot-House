@@ -14,6 +14,7 @@ import food6 from './assets/food-6.webp' // sliced beef, golden broth
 import food7 from './assets/food-7.webp' // luncheon meat, chili broth
 import venue1 from './assets/venue-1.webp' // dining room
 import venue2 from './assets/venue-2.webp' // table feast
+import logo from './assets/logo.png' // mascot logo — white + blue brand mark
 
 // Hero background slider — fire (skewers), ice (icy rice), spice (hot pot).
 export const heroSlides = [
@@ -38,6 +39,7 @@ export const images = {
 
 // Brand identity
 export const brand = {
+  logo,
   mark: '饭冰冰烧烤',
   name: 'The BBQ And Spicy Hotpot House',
 }
